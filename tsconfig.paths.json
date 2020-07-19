@@ -1,10 +1,11 @@
 {
-    "compilerOptions": {
-      "baseUrl": ".",
-      "paths": {
-        "@src/*": ["src/*"],
-        "@util/*": ["src/_util/*"],
-        "@routes/*": ["src/routes/*"],
-      }
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": ["src/*"],
+      "@util/*": ["src/_util/*"],
+      "@routes/*": ["src/routes/*"],
+      "@middleware/*": ["src/middleware/*"]
     }
   }
+}
